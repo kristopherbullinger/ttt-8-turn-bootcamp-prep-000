@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 def valid_move? (board, input)
-  input -= 1 
+  input_to_index 
   if (input < 0 || input > board.length-1)
     return "Invalid move"
   end
@@ -19,7 +19,13 @@ def valid_move? (board, input)
 end
 
 def move(board, input, token = "X")
+  input_to_index
   if (valid_move?)
-    board[input-1] = token
+    board[input] = token
   end
+end
+
+def input_to_index
+  input -= 1 
+  return input
 end
