@@ -7,5 +7,6 @@ def valid_move? (board, input)
   if (input < 0 || input > board.length -1)
     return "Invalid move"
   end
-  
+  if (board[input] == " " || board[input] == "" || board[input] == nil)
+    board[input]
 end
