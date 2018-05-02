@@ -8,5 +8,10 @@ def valid_move? (board, input)
     return "Invalid move"
   end
   if (board[input] == " " || board[input] == "" || board[input] == nil)
-    board[input]
+    return true 
+  else 
+    return false 
+  end 
 end
+
+
