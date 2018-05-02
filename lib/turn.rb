@@ -1,5 +1,6 @@
 def display_board(board)
-  puts board
+  puts " #{board[0]} |  #{board[1]} |  #{board[2]} "
+  puts 
 end
 
 def valid_move? (board, input)
