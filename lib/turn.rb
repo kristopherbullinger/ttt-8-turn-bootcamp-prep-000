@@ -14,6 +14,8 @@ def valid_move? (board, input)
   end 
 end
 
-def move
-  
+def move(board, input, token = "X")
+  if (valid_move?)
+    board[input-1] = token
+  end
 end
