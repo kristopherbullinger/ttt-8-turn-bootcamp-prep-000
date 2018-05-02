@@ -7,14 +7,14 @@ def display_board(board)
 end
 
 def valid_move? (board, input)
-  input_to_index(input) 
+  input = input_to_index(input) 
   if (input < 0 || input > board.length-1)
-    return "Invalid move"
+    return false
   end
   if (board[input] == " " || board[input] == "" || board[input] == nil)
     return true 
   else 
-    return false 
+    return false
   end 
 end
 
