@@ -26,6 +26,6 @@ def move(board, input, token = "X")
 end
 
 def input_to_index
-  input -= 1 
+  input = input.to_s - 1 
   return input
 end
