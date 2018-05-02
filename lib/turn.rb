@@ -14,4 +14,6 @@ def valid_move? (board, input)
   end 
 end
 
-
+def move
+  
+end
