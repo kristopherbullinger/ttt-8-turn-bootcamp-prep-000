@@ -33,9 +33,9 @@ def turn
   input = gets.strip
   input = input_to_index
   if (valid_move?(board, input))
-    
+    move(board, input, token = "X")
   else
-    return ""
+    return "Invalid move"
   end
 end 
 
