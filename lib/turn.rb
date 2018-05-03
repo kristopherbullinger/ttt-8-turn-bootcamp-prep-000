@@ -38,5 +38,5 @@ def turn (board)
     return "Invalid move"
   end
   display_board(board)
-end 
+end
 
