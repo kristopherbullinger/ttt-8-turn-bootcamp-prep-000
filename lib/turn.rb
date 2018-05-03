@@ -27,3 +27,8 @@ def input_to_index(input)
   input = input.to_i - 1 
   return input
 end
+
+def turn 
+  puts "Please enter 1-9:"
+end 
+
