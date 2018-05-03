@@ -34,11 +34,13 @@ def turn (board)
   input = input_to_index(input)
   valid_move?(board, input)
   x = false
-  #if (x == true)
+  =begin
+  if (x == true)
     move(board, input, token = "X")
   else
     return "Invalid move"
   end
+  =end
   display_board(board)
 end
 
