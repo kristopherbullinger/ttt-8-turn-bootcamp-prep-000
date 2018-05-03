@@ -35,6 +35,7 @@ def turn (board)
   else 
     puts "Invalid input."
     turn(board)
+    return
   end 
   display_board(board)
 end
