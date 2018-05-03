@@ -37,5 +37,6 @@ def turn
   else
     return "Invalid move"
   end
+  display_board(board)
 end 
 
