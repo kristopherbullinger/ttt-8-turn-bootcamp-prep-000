@@ -34,7 +34,7 @@ def turn (board)
   input = input_to_index(input)
   valid_move?(board, input)
   x = false
-  =begin
+
   if (x == true)
     move(board, input, token = "X")
   else
